@@ -39,4 +39,20 @@
 
 .conteudoPrincipal-cursos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin-bottom: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    max-width: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+
 }
