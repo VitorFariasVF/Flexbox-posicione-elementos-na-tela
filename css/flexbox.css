@@ -49,7 +49,7 @@
 }
 
 .conteudoPrincipal-cursos-link:nth-child(4n) {
-    max-width: 0;
+    max-height: "";
 }
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
